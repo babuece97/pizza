@@ -1,0 +1,53 @@
+body {
+    width: 1000px;
+  }
+  .banner {
+    height: 250px;
+    background-image: url("https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: 90%;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+  .leftbox {
+    float: left;
+    width: 600px;
+    background-image: url("images/foods.jpg");
+    color: pink;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .rightbox {
+    background-color: greenyellow;
+    width: 350px;
+    float: right;
+    margin-top: 20px;
+  }
+  h3 {
+    padding: 10px;
+  }
+  h3:hover {
+    color: red;
+  }
+  span {
+    color: red;
+  }
+  p {
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: grey;
+    position: relative;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+  }
+  
